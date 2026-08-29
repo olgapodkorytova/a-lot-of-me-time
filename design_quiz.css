@@ -1,0 +1,105 @@
+
+header{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color:antiquewhite;
+    opacity: 0.7;
+    
+}
+
+header a{
+    text-align: center;
+    color: rgb(42, 91, 127);
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Sintony', sans-serif;
+    text-decoration: none;
+    
+}
+
+header p{
+    margin-top: 20px;
+}
+
+.body i{
+    font-size: 100px;
+    color:antiquewhite;
+
+}
+
+.body p{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:antiquewhite;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Sintony', sans-serif;
+}
+
+body{
+
+   background-image: url('https://i.pinimg.com/originals/bd/02/93/bd0293d5ec30a515aa241ec302812187.jpg') !important;
+   background-size: cover !important;
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-attachment: fixed !important;
+   background-color: rgba(36, 34, 34, 0.8) !important;
+   background-blend-mode: overlay !important;
+}
+
+
+.button {
+    display: flex;
+    margin: 40px 40px 40px auto;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.btn-group {
+    width: 20%;  
+    background-color:antiquewhite;
+    border-color: rgb(42, 91, 127);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(125, 174, 209);
+}
+
+.btn-group label {
+    color: rgb(42, 91, 127);
+    font-weight: 600;
+
+}
+
+.enter_btn button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 20% !important;  
+    padding: 10px 10px;
+    background-color:rgb(42, 91, 127);
+    border-color: rgb(42, 91, 127);
+    border-width: 0;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(125, 174, 209);
+    font-color: antiquewhite;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.ask_mood {
+    font-size:45px;
+}
